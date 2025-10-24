@@ -5,6 +5,7 @@
 }
 h1 {
     padding: 15px 0 10px;
+    text-align: center;
 }
 header {
     background-color: #003049;
@@ -54,6 +55,10 @@ body {
 }
 ul {
     margin-left: 30px;
+    margin-bottom: 20px;
+}
+ul li {
+    margin-bottom: 8px;
 }
 ul li a {
     color:black;
@@ -86,8 +91,24 @@ ul li a:hover {
 #table tr:nth-child(odd) {
     background-color: rgb(255, 255, 255);
 }
-#form {
-    margin-left: 15px;
+#form label {
+    margin-bottom: 15px;
+}
+#form input, #form select, #form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+#p {
+    margin: 15px 0;
+}
+#p label {
+    display: inline-block;
+    margin-right: 25px;
+}
+#p input[type="radio"] {
+    width: auto;
+    margin: 0 8px 0 0;
 }
 footer {
     background-color: #003049;
